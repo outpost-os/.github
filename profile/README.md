@@ -1,6 +1,5 @@
-<p align="center">
-  <img width="400" src="outpost.png">
-</p>
+
+<img width="200" src="outpost.png">
 
 The Outpost Project is a versatile, yet highly secured operating system (RTOS) supporting embedded hardware architectures.
 
