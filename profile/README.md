@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" src="https://github.org/outpost-os/.github/raw/main/profile/outpost.png">
+  <img width="400" src="outpost.png">
 </p>
 
 The Outpost Project is a versatile, yet highly secured operating system (RTOS) supporting embedded hardware architectures.
