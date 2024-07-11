@@ -1,6 +1,6 @@
-
+<p align="center">
 <img width="200" src="outpost.png">
-
+</p>
 The Outpost Project is a versatile, yet highly secured operating system (RTOS) supporting embedded hardware architectures.
 
 The Outpost operating system is based on the micro-kernel and micro-service paradigm in order to delivers efficient yet small and performant environment in order to build constrained and secured systems such as crypto-enabled devices.
