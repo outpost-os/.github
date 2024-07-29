@@ -9,6 +9,17 @@ security considerations from the boot sequence up to the functional service exec
 
 The Outpost kernel supports ARM Cortex-M in the armv7-m and armv8-m derivatives, and is designed to be easily ported to other platforms such as RISC-V.
 
+## Local repositories
+
+Local repositories naming is using the following rule:
+
+`action-*`: for repositories that hold github actions, used with the usual `uses:` command in github action yaml files
+`pipeline-*`: reusable workflows, to be used with various repositories holding the same type of content (e.g. python packages)
+`outpost-*`: Outpost OS related tooling. This can be meson, cargo or more generic tooling to be used by various Outpost repositories
+
+When a repository is using (or based on a part of) a given upstream, like, for e.g. `cmsis-core-include`, the repository release must be made after the upstream release used,
+with a specific suffix for local releasing and patches, in the way the version field is defined in [the Debian control file description](https://www.debian.org/doc/debian-policy/ch-controlfields.html)
+
 ## Community Support
 
 Community support is provided via [Discord](https://discord.gg/939Tjte7);
